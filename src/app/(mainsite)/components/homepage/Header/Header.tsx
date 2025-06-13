@@ -4,8 +4,14 @@ import Link from 'next/link';
 import styles from './header.module.css';
 import FreeEstimateForm from './FreeEstimateForm/FreeEstimateForm';
 import Shader from '../../misc/Shader/Shader';
+import { useEffect, useState } from 'react';
 
 export default function Header(){
+    const [form, setForm] = useState(<div></div>)
+
+    useEffect(()=>{
+        setForm(<FreeEstimateForm />)
+    }, [])
 return (
  <div className={styles.header}>
 
@@ -25,7 +31,7 @@ return (
 
     </div>
     <div className={styles.formWrapper}>
-        <FreeEstimateForm />
+        {form}
     </div>
 
     <Shader opacity={.71} background='black' />
