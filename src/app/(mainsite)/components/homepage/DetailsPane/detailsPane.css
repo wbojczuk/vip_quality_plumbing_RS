@@ -1,5 +1,5 @@
 #detailsPaneWrapper{
-    z-index: 997;
+    z-index: 9999;
     position: fixed;
     display: flex;
     top:0;
@@ -85,7 +85,7 @@
     #detailsPane{
         width: 40%;
         padding: 5% 10% 10% 5%;
-        margin-top: 14vw;
+        /* margin-top: 14vw; */
     }
 
     #detailsPaneClose{   
@@ -115,14 +115,13 @@
 @media only screen and (max-width: 649px){
     #detailsPane{
         width: 70%;
-        padding: 5% 10% 20% 5%;
-        margin-top: 25vw;
+        padding: 20% 10% 20% 5%;
     }
     
     #detailsPaneClose{   
         width: 15%;
-        top: 1%;
-        right: 5%;
+        top: 2%;
+        right: 10%;
     }
     #detailsPane img{
         margin-top: 7vh;
