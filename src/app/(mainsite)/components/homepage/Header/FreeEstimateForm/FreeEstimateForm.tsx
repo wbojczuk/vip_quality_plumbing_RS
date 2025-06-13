@@ -1,11 +1,14 @@
 "use client"
-
+import dynamic from 'next/dynamic'
 import { useRef, useState } from "react"
 import "./freeestimateform.css"
 import sendEmail from "@/app/(mainsite)/controllers/sendEmail"
-import MessageStatus from "./MessageStatus/MessageStatus"
 
 export default function FreeEstimateForm() {
+    const MessageStatus = dynamic(
+        () => import('./MessageStatus/MessageStatus'),
+        { ssr: false }
+      )
 
     const [status, setStatus] = useState("none")
     const formRef: any = useRef();
