@@ -35,6 +35,6 @@ return (
     </div>
 
     <Shader opacity={.71} background='black' />
-    <img src="/img/header-bg.png" alt="image of bathroom" className="bg-img" />
+    <img src="/img/header-bg.webp" alt="image of bathroom" className="bg-img" />
  </div>
 )};

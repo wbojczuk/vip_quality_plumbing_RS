@@ -12,7 +12,7 @@ export default function StatsRibbon() {
             <h4 className={styles.title}>Satisfaction</h4>
         </div>
         <div className={styles.statWrapper}>
-            <h3 className={styles.stat}>100s</h3>
+            <h3 className={styles.stat}>1000s</h3>
             <h4 className={styles.title}>Of Happy Clients</h4>
         </div>
     </div>

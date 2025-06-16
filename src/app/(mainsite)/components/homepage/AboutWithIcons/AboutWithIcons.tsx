@@ -34,7 +34,7 @@ export default function AboutWithIcons() {
 
         <div className={styles.imgWrapper}>
           <div className={styles.imgContainer}>
-            <img src="/img/faq.png" alt="image of a supply line" className={styles.mainImg} />
+            <img src="/img/faq.webp" alt="image of a supply line" className={styles.mainImg} />
             {/* <Shader background="var(--primary-color)" opacity={.51} zIndex={100}/> */}
             {/* <div className={styles.imgStyle}></div> */}
           </div>

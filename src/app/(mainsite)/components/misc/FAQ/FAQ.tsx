@@ -20,7 +20,7 @@ export default function FAQ() {
        <div className={styles.imgWrapper}>
         <h3 id="faqHeading" className="small-heading">Frequently Asked <span className="highlight-gradient">Questions</span></h3>
           <div className={styles.imgContainer}>
-            <img src="/img/faqq.png" alt="iamge of shower" />
+            <img src="/img/faqq.webp" alt="iamge of shower" />
 
               <div className={styles.imgStyle1}></div>
               <div className={styles.imgStyle2}></div>
@@ -31,7 +31,7 @@ export default function FAQ() {
 
        </div>
       
-        <img src='/img/faq-bg.png' alt='Image of house' className='bg-img' />
+        <img src='/img/faq-bg.webp' alt='Image of house' className='bg-img' />
         <Shader background="var(--secondary-color)" opacity={0.86} />
     </section>
   )

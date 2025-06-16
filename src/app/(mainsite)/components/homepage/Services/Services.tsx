@@ -70,7 +70,7 @@ export default function Services() {
    <div id="serviceContainer">
    <h3 className="highlight">Services</h3>
     <h2>Plumbing Services</h2>
-    <h4>Expert Plumbing Services for Homes and Businesses — Done Right the First Time</h4>
+    <h4 id="services">Expert Plumbing Services for Homes and Businesses — Done Right the First Time</h4>
     <div id="servicesWrapper" ref={wrapperRef}>
         {serviceElems}
     </div>
