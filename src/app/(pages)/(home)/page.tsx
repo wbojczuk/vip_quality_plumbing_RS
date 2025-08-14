@@ -2,6 +2,7 @@ import AboutUs from "@/app/(mainsite)/components/homepage/AboutUs/AboutUs";
 import AboutWithIcons from "@/app/(mainsite)/components/homepage/AboutWithIcons/AboutWithIcons";
 import Header from "@/app/(mainsite)/components/homepage/Header/Header";
 import InfiniteRibbon from "@/app/(mainsite)/components/homepage/InfiniteRibbon/InfiniteRibbon";
+import InlineReviews from "@/app/(mainsite)/components/homepage/InlineReviews/InlineReviews";
 import NeedHelp from "@/app/(mainsite)/components/homepage/NeedHelp/NeedHelp";
 import ServiceArea from "@/app/(mainsite)/components/homepage/ServiceArea/ServiceArea";
 import Services from "@/app/(mainsite)/components/homepage/Services/Services";
@@ -14,6 +15,7 @@ export default function Home() {
   return (
     <>
       <Header />
+      <InlineReviews />
       <AboutWithIcons />
       <StatsRibbon />
       <Services />
