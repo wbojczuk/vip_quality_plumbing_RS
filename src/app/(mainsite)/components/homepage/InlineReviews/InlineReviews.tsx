@@ -16,7 +16,7 @@ export default function InlineReviews() {
   return (
     <section className={styles.inlineReviews}>
       {/* <h4 className="tinyh4">Feedback</h4> */}
-        <h1>What People Say</h1>
+        <h1>What People Say<span className="highlight">!</span></h1>
 
         <div className={styles.reviewsWrapper}>
            
