@@ -3,7 +3,7 @@
     top:0;
     left:0;
     width: 100%;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-text-color);
     z-index: 998;
     /* box-shadow: 0px 2px 4px rgba(0,0,0,0.3); */
     transition: 0.5s transform;
@@ -27,7 +27,7 @@
      left: 0;
      width: 40%;
      height: 100%;
-     background-color: var(--secondary-color);
+     background-color: var(--primary-text-color);
 }
 .topBar::before{
     content: '';
@@ -37,7 +37,7 @@
     left: 39.9%;
     width: 5%;
     height: 100%;
-    background-color:var(--secondary-color);
+    background-color:var(--primary-text-color);
     clip-path: polygon(100% 100%, 0 0, 0 100%);
 }
 
@@ -54,13 +54,13 @@
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
-    color: var(--secondary-text-color);
+    color: black;
     text-decoration: none;
     padding: 0 1vw;
 }
 
 .topBarLinks a:not(.topBarLinks a:nth-child(1), .topBarLinks a:nth-child(4)){
-    border-left: 1px solid var(--secondary-text-color);
+    border-left: 1px solid black;
 }
 
 .topBarLinks svg{
@@ -70,7 +70,7 @@
 }
 
 .topBarLinks svg path{
-    fill: var(--secondary-text-color);
+    fill: black;
 }
 
 .navContent{
@@ -85,13 +85,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--primary-text-color);
+    color: black;
     text-decoration: none;
 }
 .logo span{
     padding-left: 0.5vw;
     font-family: var(--primary-font);
-    color: var(--primary-text-color);
+    color: black;
     font-weight: 500;
     font-size: 1.8rem;
 }
@@ -111,7 +111,7 @@
 }
 
 .links a, .dropdownLink{
-    color: var(--primary-text-color);
+    color: black;
     text-decoration: none;
     margin: 0 0.7vw;
 }
@@ -137,7 +137,7 @@
     font-weight: 400;
     padding-left: 0.2vw;
     font-size: 1.2rem;
-    color: var(--primary-text-color);
+    color: black;
     transition: 0.3s color;
     font-family: var(--secondary-font);
 }
@@ -516,8 +516,8 @@
         font-size: 2rem;
     }
     .logoImg{
-        width: 30vw;
-        height: 10vw;
+        width: 35vw;
+        height: 20vw;
         transform: none;
     }
     .noIcon{
@@ -560,6 +560,7 @@
     .links span{
         padding-left: 0.8vw;
         font-size: 1.4rem;
+        color: var(--primary-text-color) !important;
     }
     
     .content{
@@ -573,6 +574,7 @@
         padding: 2.5vw 0;
         font-size: 1.3rem;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        
     }
     
     .dropdownLink{
@@ -593,10 +595,12 @@
     
     .dropdownLink ul li{
         font-size: 1.4rem;
+        
     }
     
     .dropdownLink ul a{
         padding: 2.5vw;
+        
     }
 
     .links a.cta{

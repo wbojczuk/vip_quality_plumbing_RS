@@ -20,9 +20,9 @@ export default function AboutWithIcons() {
     <section className={styles.aboutUs}>
         <div className={styles.textWrapper}>
           <h4>About Us</h4>
-            <h1>About VIP<br /> <span className="underline">Quality</span> Plumbing</h1>
+            <h1>About<br /> <span className="underline">EasTex</span> Plumbing</h1>
 
-            <p>At VIP Quality Plumbing, we bring over 40 years of trusted experience as a third-generation, family-owned business. We proudly serve both residential and commercial clients with expert plumbing repairs, installations, and drain cleaning. What sets us apart is how we treat our customers—with love, respect, and clear communication. We take the time to explain every job so you feel informed and confident, never talked down to. To us, you're not just a customer—you're the boss.</p>
+            <p>At EasTex Plumbing, we bring over 40 years of trusted experience as a third-generation, family-owned business. We proudly serve both residential and commercial clients with expert plumbing repairs, installations, and drain cleaning. What sets us apart is how we treat our customers—with love, respect, and clear communication. We take the time to explain every job so you feel informed and confident, never talked down to. To us, you're not just a customer—you're the boss.</p>
 
             <div className={styles.icons}>
               {iconElems}

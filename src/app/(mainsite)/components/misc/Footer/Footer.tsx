@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.content}>
 
-        <img src="/img/logo.webp" width={512} height={512} className={styles.logo} alt="Main Logo"/>
+        <img src="/img/logo1.webp" width={512} height={512} className={styles.logo} alt="Main Logo"/>
 
         <div className={styles.links}>
           <aside>
@@ -64,7 +64,7 @@ export default function Footer() {
 
       </div>
 
-      <div className={styles.copyright}>© Copyright 2025 to Present - <a href="https://www.romesites.co" target="_blank">Rome Sites</a></div>
+      <div className={styles.copyright}>© Copyright 2026 to Present - <a href="https://www.romesites.co" target="_blank">Rome Sites</a></div>
         
        
     </footer>
